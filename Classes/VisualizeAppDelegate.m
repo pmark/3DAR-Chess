@@ -43,7 +43,7 @@
     [self.window makeKeyAndVisible];
 
     self.scene = [[[Scene alloc] init] autorelease];
-
+    
     return YES;
 }
 
@@ -114,6 +114,16 @@
     return params;
 }
 
+- (void) fetchPage:(NSString*)url
+{
+    // Load the scene from the given URL        
+    URLFetchOperation *fetch = [[URLFetchOperation alloc] initWithURL:[NSURL URLWithString:url] 
+                                                             delegate:self];
+    fetch.contentType = URLFetchTypePage;
+    [operationQueue addOperation:fetch];
+    [fetch release];
+}
+
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
     if (!url) 
@@ -133,15 +143,16 @@
 
     if ([sceneURL length] > 0)
     {
-        // Load the scene from the given URL        
-        URLFetchOperation *fetch = [[URLFetchOperation alloc] initWithURL:[NSURL URLWithString:sceneURL] 
-                                                                 delegate:self];
-        fetch.contentType = URLFetchTypePage;
-        [operationQueue addOperation:fetch];
-        [fetch release];
+        [self fetchPage:sceneURL];
     }
     
     return YES;
+}
+
+- (void) didFinishFetchingText:(NSString *)text fromURL:(NSString *)url
+{
+    [scene loadJSON:text];    
+    [scene performSelectorOnMainThread:@selector(load3darPoints) withObject:nil waitUntilDone:NO];
 }
 
 - (void) didFinishFetchingImage:(UIImage *)image fromURL:(NSString *)url
@@ -149,16 +160,9 @@
     
 }
 
-- (void) didFinishFetchingText:(NSString *)text fromURL:(NSString *)url
-{
-    [scene loadJSON:text];    
-    [scene load3darPoints];
-}
-
 - (void) didFinishFetchingData:(NSData *)data fromURL:(NSString *)url
 {
     
 }
-
 
 @end

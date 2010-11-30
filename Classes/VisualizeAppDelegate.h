@@ -24,6 +24,8 @@
 @property (nonatomic, retain) IBOutlet VisualizeViewController *viewController;
 @property (nonatomic, retain) Scene *scene;
 
+- (void) fetchPage:(NSString*)url;
+
 @end
 
 #define APP_DELEGATE ((VisualizeAppDelegate*)[UIApplication sharedApplication].delegate)

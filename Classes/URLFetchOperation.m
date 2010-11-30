@@ -36,6 +36,8 @@
 
 - (void) main
 {
+    NSLog(@"Fetching %@", [URL absoluteString]);
+    
     NSURLRequest *request = [NSURLRequest requestWithURL:URL
                                              cachePolicy:NSURLRequestReloadRevalidatingCacheData 
                                          timeoutInterval:60.0];

@@ -8,16 +8,26 @@
 
 @implementation SphereView
 
+- (UIColor *) randomColor 
+{
+    red = (CGFloat)random()/(CGFloat)RAND_MAX;
+    green = (CGFloat)random()/(CGFloat)RAND_MAX;
+    blue = (CGFloat)random()/(CGFloat)RAND_MAX;    
+    colorAlpha = 0.32;
+    
+    return [UIColor colorWithRed:red green:green blue:blue alpha:colorAlpha];
+}
+
 - (void) buildView 
 {
-    self.color = [UIColor whiteColor];
+    self.color = [self randomColor];
     self.hidden = NO;    
     self.zrot = 0.0;    
-    self.sizeScalar = 100.0;
+    self.sizeScalar = 68.0;
 	self.frame = CGRectZero;
-    NSString* path = [[NSBundle mainBundle] pathForResource:@"sphere" ofType:@"obj"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"sphere" ofType:@"obj"];
     self.geometry = [[Geometry newOBJFromResource:path] autorelease];
-    self.geometry.cullFace = YES;
+    self.geometry.cullFace = NO;
 }
 
 - (void) displayGeometry 
@@ -36,20 +46,27 @@
         [textureImage release];
     }
 
-    glScalef(-sizeScalar, sizeScalar, sizeScalar);
-    glRotatef(180, 1, 0, 0);
+    glScalef(-sizeScalar, sizeScalar, 1.3*sizeScalar);
+    glTranslatef(0, 0, -10);
     
-    //[self updateTexture];
-
     if (texture)
     {
         [Geometry displaySphereWithTexture:self.texture];
     }
 	else
     {
-        //[self.geometry displayShaded:self.color];
-        [self.geometry displayWireframe];
+        [self.geometry displayShaded:self.color];
     }
+}
+
+- (void) didReceiveFocus
+{
+    self.color = [UIColor colorWithRed:red green:green blue:blue alpha:(colorAlpha*2.5)];
+}
+
+- (void) didLoseFocus
+{
+    self.color = [UIColor colorWithRed:red green:green blue:blue alpha:colorAlpha];
 }
 
 

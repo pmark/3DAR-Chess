@@ -11,6 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "SphereBackgroundView.h"
 #import "GroundPlaneView.h"
+#import "SphereView.h"
 
 @implementation Scene
 
@@ -70,7 +71,7 @@
                                                          altitude:0 
                                                             title:title 
                                                          subtitle:subtitle 
-                                                  markerViewClass:nil 
+                                                  markerViewClass:[SphereView class]
                                                        properties:nil];
                 
         

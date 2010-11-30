@@ -42,8 +42,10 @@
 
 - (void) loadPointsOfInterest
 {
-    [APP_DELEGATE.scene addBackground];
-    [APP_DELEGATE.scene addGroundPlane];
+    [APP_DELEGATE fetchPage:@"http://bordertownlabs.com/3dar/scene1.json"];
+    
+//    [APP_DELEGATE.scene addBackground];
+//    [APP_DELEGATE.scene addGroundPlane];
 }
 
 
