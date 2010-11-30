@@ -42,6 +42,8 @@
     [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
 
+    self.scene = [[[Scene alloc] init] autorelease];
+
     return YES;
 }
 
@@ -149,9 +151,7 @@
 
 - (void) didFinishFetchingText:(NSString *)text fromURL:(NSString *)url
 {
-    //NSLog(@"%@", text);
-    self.scene = [[[Scene alloc] initWithJSON:text] autorelease];
-    
+    [scene loadJSON:text];    
     [scene load3darPoints];
 }
 

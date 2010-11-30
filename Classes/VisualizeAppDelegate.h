@@ -26,3 +26,4 @@
 
 @end
 
+#define APP_DELEGATE ((VisualizeAppDelegate*)[UIApplication sharedApplication].delegate)

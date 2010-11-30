@@ -7,16 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SM3DAR.h"
 
 
 @interface Scene : NSObject 
 {
     NSDictionary *properties;
+    SM3DAR_Fixture *sphereBackground;
+    SM3DAR_Fixture *groundPlane;
 }
 
 @property (nonatomic, retain) NSDictionary *properties;
+@property (nonatomic, retain) SM3DAR_Fixture *sphereBackground;
+@property (nonatomic, retain) SM3DAR_Fixture *groundPlane;
 
 - (id) initWithJSON:(NSString *)json;
+- (void) loadJSON:(NSString *)json;
 - (void) load3darPoints;
+- (void) addBackground;
+- (void) addGroundPlane;
 
 @end

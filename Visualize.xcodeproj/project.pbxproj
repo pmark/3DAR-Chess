@@ -36,6 +36,24 @@
 		A645447312A4EA120014F23C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A645447112A4EA120014F23C /* Icon.png */; };
 		A6B8DCEA12A5083200FC02E0 /* URLFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DCE912A5083200FC02E0 /* URLFetchOperation.m */; };
 		A6B8DD2E12A50FF700FC02E0 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD2D12A50FF700FC02E0 /* Scene.m */; };
+		A6B8DD9D12A51B5D00FC02E0 /* RoundedLabelMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */; };
+		A6B8DD9E12A51B5D00FC02E0 /* SphereBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */; };
+		A6B8DD9F12A51B5D00FC02E0 /* SphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */; };
+		A6B8DDA012A51B5D00FC02E0 /* TexturedGeometryView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */; };
+		A6B8DDA312A51B7E00FC02E0 /* GroundPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */; };
+		A6B8DDB412A51BE100FC02E0 /* ground1_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDA812A51BE100FC02E0 /* ground1_1024.jpg */; };
+		A6B8DDB512A51BE100FC02E0 /* 3dar_marker_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDA912A51BE100FC02E0 /* 3dar_marker_icon1.png */; };
+		A6B8DDB612A51BE100FC02E0 /* 3dar_marker_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAA12A51BE100FC02E0 /* 3dar_marker_icon2.png */; };
+		A6B8DDB712A51BE100FC02E0 /* 3dar_marker_icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAB12A51BE100FC02E0 /* 3dar_marker_icon3.png */; };
+		A6B8DDB812A51BE100FC02E0 /* 3dar_marker_icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAC12A51BE100FC02E0 /* 3dar_marker_icon4.png */; };
+		A6B8DDB912A51BE100FC02E0 /* 3dar_marker_icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAD12A51BE100FC02E0 /* 3dar_marker_icon5.png */; };
+		A6B8DDBA12A51BE100FC02E0 /* 3dar_marker_icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAE12A51BE100FC02E0 /* 3dar_marker_icon6.png */; };
+		A6B8DDBB12A51BE100FC02E0 /* bubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDAF12A51BE100FC02E0 /* bubble1.png */; };
+		A6B8DDBC12A51BE100FC02E0 /* compass_rose.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDB012A51BE100FC02E0 /* compass_rose.png */; };
+		A6B8DDBD12A51BE100FC02E0 /* compass_rose_b_300.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDB112A51BE100FC02E0 /* compass_rose_b_300.png */; };
+		A6B8DDBE12A51BE100FC02E0 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDB212A51BE100FC02E0 /* sky.png */; };
+		A6B8DDBF12A51BE100FC02E0 /* sky2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDB312A51BE100FC02E0 /* sky2.png */; };
+		A6B8DDDB12A51E7B00FC02E0 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = A6B8DDDA12A51E7B00FC02E0 /* sphere.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +101,29 @@
 		A6B8DCEB12A509BF00FC02E0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		A6B8DD2C12A50FF700FC02E0 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		A6B8DD2D12A50FF700FC02E0 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedLabelMarkerView.m; sourceTree = "<group>"; };
+		A6B8DD9612A51B5D00FC02E0 /* RoundedLabelMarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedLabelMarkerView.h; sourceTree = "<group>"; };
+		A6B8DD9712A51B5D00FC02E0 /* SphereBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBackgroundView.h; sourceTree = "<group>"; };
+		A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBackgroundView.m; sourceTree = "<group>"; };
+		A6B8DD9912A51B5D00FC02E0 /* SphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereView.h; sourceTree = "<group>"; };
+		A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereView.m; sourceTree = "<group>"; };
+		A6B8DD9B12A51B5D00FC02E0 /* TexturedGeometryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturedGeometryView.h; sourceTree = "<group>"; };
+		A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexturedGeometryView.m; sourceTree = "<group>"; };
+		A6B8DDA112A51B7E00FC02E0 /* GroundPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundPlaneView.h; sourceTree = "<group>"; };
+		A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundPlaneView.m; sourceTree = "<group>"; };
+		A6B8DDA812A51BE100FC02E0 /* ground1_1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ground1_1024.jpg; sourceTree = "<group>"; };
+		A6B8DDA912A51BE100FC02E0 /* 3dar_marker_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon1.png; sourceTree = "<group>"; };
+		A6B8DDAA12A51BE100FC02E0 /* 3dar_marker_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon2.png; sourceTree = "<group>"; };
+		A6B8DDAB12A51BE100FC02E0 /* 3dar_marker_icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon3.png; sourceTree = "<group>"; };
+		A6B8DDAC12A51BE100FC02E0 /* 3dar_marker_icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon4.png; sourceTree = "<group>"; };
+		A6B8DDAD12A51BE100FC02E0 /* 3dar_marker_icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon5.png; sourceTree = "<group>"; };
+		A6B8DDAE12A51BE100FC02E0 /* 3dar_marker_icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dar_marker_icon6.png; sourceTree = "<group>"; };
+		A6B8DDAF12A51BE100FC02E0 /* bubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble1.png; sourceTree = "<group>"; };
+		A6B8DDB012A51BE100FC02E0 /* compass_rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_rose.png; sourceTree = "<group>"; };
+		A6B8DDB112A51BE100FC02E0 /* compass_rose_b_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_rose_b_300.png; sourceTree = "<group>"; };
+		A6B8DDB212A51BE100FC02E0 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		A6B8DDB312A51BE100FC02E0 /* sky2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky2.png; sourceTree = "<group>"; };
+		A6B8DDDA12A51E7B00FC02E0 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +152,18 @@
 			isa = PBXGroup;
 			children = (
 				A6B8DCEB12A509BF00FC02E0 /* Constants.h */,
+				A6B8DDA112A51B7E00FC02E0 /* GroundPlaneView.h */,
+				A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */,
+				A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */,
+				A6B8DD9612A51B5D00FC02E0 /* RoundedLabelMarkerView.h */,
 				A6B8DD2C12A50FF700FC02E0 /* Scene.h */,
 				A6B8DD2D12A50FF700FC02E0 /* Scene.m */,
+				A6B8DD9712A51B5D00FC02E0 /* SphereBackgroundView.h */,
+				A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */,
+				A6B8DD9912A51B5D00FC02E0 /* SphereView.h */,
+				A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */,
+				A6B8DD9B12A51B5D00FC02E0 /* TexturedGeometryView.h */,
+				A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */,
 				A6B8DCE812A5083200FC02E0 /* URLFetchOperation.h */,
 				A6B8DCE912A5083200FC02E0 /* URLFetchOperation.m */,
 				1D3623240D0F684500981E51 /* VisualizeAppDelegate.h */,
@@ -200,6 +251,19 @@
 				A64543C612A4E5390014F23C /* 3dar_logo.png */,
 				A64543C812A4E5390014F23C /* SM3DAR.h */,
 				A64543C912A4E5390014F23C /* SM3DAR_keys.txt */,
+				A6B8DDA812A51BE100FC02E0 /* ground1_1024.jpg */,
+				A6B8DDA912A51BE100FC02E0 /* 3dar_marker_icon1.png */,
+				A6B8DDAA12A51BE100FC02E0 /* 3dar_marker_icon2.png */,
+				A6B8DDAB12A51BE100FC02E0 /* 3dar_marker_icon3.png */,
+				A6B8DDAC12A51BE100FC02E0 /* 3dar_marker_icon4.png */,
+				A6B8DDAD12A51BE100FC02E0 /* 3dar_marker_icon5.png */,
+				A6B8DDAE12A51BE100FC02E0 /* 3dar_marker_icon6.png */,
+				A6B8DDAF12A51BE100FC02E0 /* bubble1.png */,
+				A6B8DDB012A51BE100FC02E0 /* compass_rose.png */,
+				A6B8DDB112A51BE100FC02E0 /* compass_rose_b_300.png */,
+				A6B8DDB212A51BE100FC02E0 /* sky.png */,
+				A6B8DDB312A51BE100FC02E0 /* sky2.png */,
+				A6B8DDDA12A51E7B00FC02E0 /* sphere.obj */,
 			);
 			path = 3DAR;
 			sourceTree = "<group>";
@@ -286,6 +350,19 @@
 				A64543DF12A4E5390014F23C /* SM3DAR_keys.txt in Resources */,
 				A645447212A4EA120014F23C /* Default.png in Resources */,
 				A645447312A4EA120014F23C /* Icon.png in Resources */,
+				A6B8DDB412A51BE100FC02E0 /* ground1_1024.jpg in Resources */,
+				A6B8DDB512A51BE100FC02E0 /* 3dar_marker_icon1.png in Resources */,
+				A6B8DDB612A51BE100FC02E0 /* 3dar_marker_icon2.png in Resources */,
+				A6B8DDB712A51BE100FC02E0 /* 3dar_marker_icon3.png in Resources */,
+				A6B8DDB812A51BE100FC02E0 /* 3dar_marker_icon4.png in Resources */,
+				A6B8DDB912A51BE100FC02E0 /* 3dar_marker_icon5.png in Resources */,
+				A6B8DDBA12A51BE100FC02E0 /* 3dar_marker_icon6.png in Resources */,
+				A6B8DDBB12A51BE100FC02E0 /* bubble1.png in Resources */,
+				A6B8DDBC12A51BE100FC02E0 /* compass_rose.png in Resources */,
+				A6B8DDBD12A51BE100FC02E0 /* compass_rose_b_300.png in Resources */,
+				A6B8DDBE12A51BE100FC02E0 /* sky.png in Resources */,
+				A6B8DDBF12A51BE100FC02E0 /* sky2.png in Resources */,
+				A6B8DDDB12A51E7B00FC02E0 /* sphere.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +384,11 @@
 				A64543E612A4E5390014F23C /* Reachability.m in Sources */,
 				A6B8DCEA12A5083200FC02E0 /* URLFetchOperation.m in Sources */,
 				A6B8DD2E12A50FF700FC02E0 /* Scene.m in Sources */,
+				A6B8DD9D12A51B5D00FC02E0 /* RoundedLabelMarkerView.m in Sources */,
+				A6B8DD9E12A51B5D00FC02E0 /* SphereBackgroundView.m in Sources */,
+				A6B8DD9F12A51B5D00FC02E0 /* SphereView.m in Sources */,
+				A6B8DDA012A51B5D00FC02E0 /* TexturedGeometryView.m in Sources */,
+				A6B8DDA312A51B7E00FC02E0 /* GroundPlaneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

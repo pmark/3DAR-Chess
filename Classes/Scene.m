@@ -9,15 +9,20 @@
 #import "Scene.h"
 #import "NSDictionary+BSJSONAdditions.h"
 #import <CoreLocation/CoreLocation.h>
-#import "SM3DAR.h"
+#import "SphereBackgroundView.h"
+#import "GroundPlaneView.h"
 
 @implementation Scene
 
 @synthesize properties;
+@synthesize sphereBackground;
+@synthesize groundPlane;
 
 - (void) dealloc 
 {
     RELEASE(properties);
+    RELEASE(sphereBackground);
+    RELEASE(groundPlane);
     
     [super dealloc];
 }
@@ -26,15 +31,22 @@
 {
     if (self = [super init])
     {
-        self.properties = [NSDictionary dictionaryWithJSONString:json];
+        [self loadJSON:json];
     }
     
     return self;
 }
 
+- (void) loadJSON:(NSString *)json
+{
+    self.properties = [NSDictionary dictionaryWithJSONString:json];
+}
+
 - (void) load3darPoints
 {
     [SM3DAR removeAllPointsOfInterest];
+    [self addBackground];
+    [self addGroundPlane];
     
     if (!properties || [properties count] == 0)
     {
@@ -60,14 +72,43 @@
                                                          subtitle:subtitle 
                                                   markerViewClass:nil 
                                                        properties:nil];
+                
         
         [tmpPoints addObject:p];
+        [p release];
     }
 
     [SM3DAR.map addAnnotations:tmpPoints];
     [SM3DAR addPointsOfInterest:tmpPoints];
     
     [SM3DAR zoomMapToFitPointsIncludingUserLocation:NO];
+}
+
+- (SM3DAR_Fixture*) addFixtureWithView:(SM3DAR_PointView*)pointView
+{
+    // create point
+    SM3DAR_Fixture *point = [[SM3DAR_Fixture alloc] init];
+    
+    // give point a view
+    point.view = pointView;  
+    
+    // add point to 3DAR scene
+    [SM3DAR addPointOfInterest:point];
+    return [point autorelease];
+}
+
+- (void) addBackground
+{
+    SphereBackgroundView *sphereView = [[SphereBackgroundView alloc] initWithTextureNamed:@"sky2.png"];
+    self.sphereBackground = [self addFixtureWithView:sphereView];
+    [sphereView release];
+}
+
+- (void) addGroundPlane
+{
+    GroundPlaneView *gpView = [[GroundPlaneView alloc] initWithTextureNamed:@"ground1_1024.jpg"];
+    self.groundPlane = [self addFixtureWithView:gpView];
+    [gpView release];
 }
 
 @end

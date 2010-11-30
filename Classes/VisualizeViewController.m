@@ -7,6 +7,7 @@
 //
 
 #import "VisualizeViewController.h"
+#import "VisualizeAppDelegate.h"
 #import "SM3DAR.h"
 
 @implementation VisualizeViewController
@@ -39,10 +40,11 @@
     [SM3DAR zoomMapToFitPointsIncludingUserLocation:YES];
 }
 
-//- (void) loadPointsOfInterest
-//{
-//    ready = YES;
-//}
+- (void) loadPointsOfInterest
+{
+    [APP_DELEGATE.scene addBackground];
+    [APP_DELEGATE.scene addGroundPlane];
+}
 
 
 /*

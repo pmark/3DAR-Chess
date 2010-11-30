@@ -15,3 +15,5 @@ if(object)\
 object=nil; \
 } \
 }
+
+#define GROUNDPLANE_ZPOS -80
