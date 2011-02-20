@@ -1,0 +1,21 @@
+{
+	"scene":
+	{
+		"title":"Cafes",
+		"points":
+		[
+			{"title":"Alameda Cafe", "longitude":"-122.615437", "latitude":"45.548482", "subtitle":"★★★★★"},
+			{"title":"Ohana Hawaiian Cafe", "longitude":"-122.598022", "latitude":"45.54464", "subtitle":"★★★★"},
+			{"title":"West Cafe", "longitude":"-122.686336", "latitude":"45.516644", "subtitle":"★★★★★"},
+			{"title":"Cadillac Cafe", "longitude":"-122.647545", "latitude":"45.53515", "subtitle":"★★★★"},
+			{"title":"Byways Cafe", "longitude":"-122.683457", "latitude":"45.526387", "subtitle":"★★★★"},
+			{"title":"Daddy Mojo's Cafe", "longitude":"-122.582306", "latitude":"45.526512", "subtitle":"★★★★★"},
+			{"title":"J Cafe", "longitude":"-122.660291", "latitude":"45.530141", "subtitle":"★★★★★"},
+			{"title":"Cafe Wonder", "longitude":"-122.663737", "latitude":"45.540728", "subtitle":"★★★★★"},
+			{"title":"Laughing Planet Cafe", "longitude":"-122.694353", "latitude":"45.529318", "subtitle":"★★★★★"},
+			{"title":"Roxy", "longitude":"-122.682292", "latitude":"45.52248", "subtitle":"★★★★"},
+			{"title":"Daily Market  Cafe", "longitude":"-122.609028", "latitude":"45.533635", "subtitle":"★★★★★"},
+			{"title":"Tiny's Cafe", "longitude":"-122.661764", "latitude":"45.537354", "subtitle":"★★★★★"}		
+		]
+	}
+}

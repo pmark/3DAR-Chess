@@ -5,7 +5,7 @@
  *  Copyright 2010 Spot Metrix, Inc. All rights reserved.
  *  Please see http://spotmetrix.com
  *
- *  Version 4.0.7 Beta 1
+ *  Version 4.0.8
  *
  */
 
@@ -89,7 +89,7 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 @property (nonatomic, retain) UILabel *statusLabel;
 @property (nonatomic, retain) UIImagePickerController *camera;
 @property (nonatomic, assign) NSObject<SM3DAR_Delegate> *delegate;
-@property (nonatomic, retain) NSMutableDictionary *pointsOfInterest;
+@property (nonatomic, retain) NSArray *pointsOfInterest;
 @property (nonatomic, retain) SM3DAR_Point *focusedPOI;
 @property (nonatomic, retain) SM3DAR_Point *selectedPOI;
 @property (nonatomic, assign) Class markerViewClass;
@@ -97,6 +97,7 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 @property (nonatomic, retain) NSObject<SM3DAR_FocusDelegate> *focusView;
 @property (nonatomic, assign) CGFloat screenOrientationRadians;
 @property (nonatomic, retain) UIView *glView;
+@property (nonatomic, retain) UIView *hudView;
 @property (nonatomic, assign) CGFloat nearClipMeters;
 @property (nonatomic, assign) CGFloat farClipMeters;
 @property (assign) NSTimeInterval locationUpdateInterval;
@@ -130,6 +131,7 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 - (void)removePointOfInterest:(SM3DAR_Point*)point;
 - (void)removePointsOfInterest:(NSArray*)points;
 - (void)removeAllPointsOfInterest;
+- (void)removeAllPointsOfInterest:(BOOL)removeFixtures;
 - (void)replaceAllPointsOfInterestWith:(NSArray*)points;
 - (NSString*)loadJSONFromFile:(NSString*)fileName;
 - (void)loadMarkersFromJSONFile:(NSString*)fileName;
@@ -170,6 +172,12 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 - (Coord3D)solarPositionScaled:(CGFloat)meters;
 - (void)initOrigin;
 - (Coord3D)ray:(CGPoint)screenPoint;
+
+///////////// NEW 1/30/2011
+- (void) setCameraAltitudeMeters:(CGFloat)altitude;
+- (void) setCameraOffset:(Coord3D)offset;
+/////////////
+
 @end
 
 
@@ -343,4 +351,3 @@ typedef NSObject<SM3DAR_PointProtocol> SM3DAR_Point;
 #define SM3DAR_POI_VIEW_CLASS_NAME @"view_class_name"
 #define SM3DAR_POI_DEFAULT_VIEW_CLASS_NAME @"SM3DAR_IconMarkerView"
 
-#define SM3DAR [SM3DAR_Controller sharedController]

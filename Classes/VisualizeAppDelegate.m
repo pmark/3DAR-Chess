@@ -15,6 +15,7 @@
 @synthesize window;
 @synthesize viewController;
 @synthesize scene;
+@synthesize gearSpeed;
 
 - (void)dealloc {
     RELEASE(viewController);
@@ -36,6 +37,8 @@
     
     operationQueue = [[NSOperationQueue alloc] init];
 
+    APP_DELEGATE.gearSpeed = 1.0;
+    
     // Init 3DAR
     SM3DAR.delegate = viewController; 
 

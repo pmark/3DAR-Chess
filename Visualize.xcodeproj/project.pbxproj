@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* VisualizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* VisualizeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* VisualizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* VisualizeViewController.m */; };
+		A62672C313112834006E6A4B /* sky3.png in Resources */ = {isa = PBXBuildFile; fileRef = A62672C213112834006E6A4B /* sky3.png */; };
 		A64543B312A4E4F40014F23C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B212A4E4F40014F23C /* CoreLocation.framework */; };
 		A64543B512A4E4F40014F23C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B412A4E4F40014F23C /* CoreMotion.framework */; };
 		A64543B712A4E4F40014F23C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543B612A4E4F40014F23C /* MapKit.framework */; };
@@ -30,10 +31,23 @@
 		A64543E412A4E5390014F23C /* NSString+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A64543D412A4E5390014F23C /* NSString+BSJSONAdditions.m */; };
 		A64543E612A4E5390014F23C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A64543DB12A4E5390014F23C /* Reachability.m */; };
 		A64543EA12A4E5670014F23C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64543E912A4E5670014F23C /* SystemConfiguration.framework */; };
-		A645445212A4E68C0014F23C /* lib3DAR_v4_0_7_b1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A645445112A4E68C0014F23C /* lib3DAR_v4_0_7_b1.a */; };
 		A645445D12A4E7290014F23C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A645445C12A4E7290014F23C /* QuartzCore.framework */; };
 		A645447212A4EA120014F23C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A645447012A4EA120014F23C /* Default.png */; };
 		A645447312A4EA120014F23C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A645447112A4EA120014F23C /* Icon.png */; };
+		A659285212D5A5C2000FEEAA /* scene1.json in Resources */ = {isa = PBXBuildFile; fileRef = A659285112D5A5C2000FEEAA /* scene1.json */; };
+		A699FBE01310E97C008E304C /* tetrahedron.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FBBE1310E710008E304C /* tetrahedron.obj */; };
+		A699FC011310EE28008E304C /* lib3DAR_v4_0_8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A699FC001310EE28008E304C /* lib3DAR_v4_0_8.a */; };
+		A699FC211310EFC1008E304C /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = A699FC201310EFC1008E304C /* Joystick.m */; };
+		A699FC241310EFFE008E304C /* CGPointUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A699FC231310EFFE008E304C /* CGPointUtil.m */; };
+		A699FC391310F11F008E304C /* 84_white_topnotch.png in Resources */ = {isa = PBXBuildFile; fileRef = A699FC371310F11F008E304C /* 84_white_topnotch.png */; };
+		A699FC3A1310F11F008E304C /* 128_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A699FC381310F11F008E304C /* 128_white.png */; };
+		A699FC6E1310F56C008E304C /* dodecahedron.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FC6D1310F555008E304C /* dodecahedron.obj */; };
+		A699FC971310F8FD008E304C /* octahedron.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FC901310F8FD008E304C /* octahedron.obj */; };
+		A699FC9A1310F8FD008E304C /* sandal.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FC931310F8FD008E304C /* sandal.obj */; };
+		A699FC9B1310F8FD008E304C /* skyscraper.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FC941310F8FD008E304C /* skyscraper.obj */; };
+		A699FC9C1310F8FD008E304C /* lamp.obj in Resources */ = {isa = PBXBuildFile; fileRef = A699FC951310F8FD008E304C /* lamp.obj */; };
+		A699FCD31310FDE7008E304C /* FlatGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A699FCD21310FDE7008E304C /* FlatGridView.m */; };
+		A699FCFF131105FB008E304C /* OrbitingFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = A699FCFE131105FB008E304C /* OrbitingFixture.m */; };
 		A6B8DCEA12A5083200FC02E0 /* URLFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DCE912A5083200FC02E0 /* URLFetchOperation.m */; };
 		A6B8DD2E12A50FF700FC02E0 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD2D12A50FF700FC02E0 /* Scene.m */; };
 		A6B8DD9D12A51B5D00FC02E0 /* RoundedLabelMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */; };
@@ -70,6 +84,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Visualize_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visualize_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Visualize-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Visualize-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A62672C213112834006E6A4B /* sky3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky3.png; sourceTree = "<group>"; };
 		A64543B212A4E4F40014F23C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A64543B412A4E4F40014F23C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		A64543B612A4E4F40014F23C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -92,10 +107,28 @@
 		A64543DA12A4E5390014F23C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A64543DB12A4E5390014F23C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A64543E912A4E5670014F23C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A645445112A4E68C0014F23C /* lib3DAR_v4_0_7_b1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = lib3DAR_v4_0_7_b1.a; sourceTree = "<group>"; };
 		A645445C12A4E7290014F23C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A645447012A4EA120014F23C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A645447112A4EA120014F23C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A659285112D5A5C2000FEEAA /* scene1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene1.json; sourceTree = "<group>"; };
+		A699FBBE1310E710008E304C /* tetrahedron.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tetrahedron.obj; sourceTree = "<group>"; };
+		A699FC001310EE28008E304C /* lib3DAR_v4_0_8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = lib3DAR_v4_0_8.a; sourceTree = "<group>"; };
+		A699FC1F1310EFC1008E304C /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		A699FC201310EFC1008E304C /* Joystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
+		A699FC221310EFFE008E304C /* CGPointUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtil.h; sourceTree = "<group>"; };
+		A699FC231310EFFE008E304C /* CGPointUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPointUtil.m; sourceTree = "<group>"; };
+		A699FC371310F11F008E304C /* 84_white_topnotch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 84_white_topnotch.png; sourceTree = "<group>"; };
+		A699FC381310F11F008E304C /* 128_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128_white.png; sourceTree = "<group>"; };
+		A699FC6D1310F555008E304C /* dodecahedron.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dodecahedron.obj; sourceTree = "<group>"; };
+		A699FC7B1310F8B3008E304C /* magnolia.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = magnolia.obj; sourceTree = "<group>"; };
+		A699FC901310F8FD008E304C /* octahedron.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = octahedron.obj; sourceTree = "<group>"; };
+		A699FC931310F8FD008E304C /* sandal.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sandal.obj; sourceTree = "<group>"; };
+		A699FC941310F8FD008E304C /* skyscraper.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skyscraper.obj; sourceTree = "<group>"; };
+		A699FC951310F8FD008E304C /* lamp.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lamp.obj; sourceTree = "<group>"; };
+		A699FCD11310FDE7008E304C /* FlatGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatGridView.h; sourceTree = "<group>"; };
+		A699FCD21310FDE7008E304C /* FlatGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatGridView.m; sourceTree = "<group>"; };
+		A699FCFD131105FB008E304C /* OrbitingFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitingFixture.h; sourceTree = "<group>"; };
+		A699FCFE131105FB008E304C /* OrbitingFixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitingFixture.m; sourceTree = "<group>"; };
 		A6B8DCE812A5083200FC02E0 /* URLFetchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLFetchOperation.h; sourceTree = "<group>"; };
 		A6B8DCE912A5083200FC02E0 /* URLFetchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLFetchOperation.m; sourceTree = "<group>"; };
 		A6B8DCEB12A509BF00FC02E0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -140,8 +173,8 @@
 				A64543B912A4E4F40014F23C /* OpenGLES.framework in Frameworks */,
 				A64543BB12A4E4F40014F23C /* QuickLook.framework in Frameworks */,
 				A64543EA12A4E5670014F23C /* SystemConfiguration.framework in Frameworks */,
-				A645445212A4E68C0014F23C /* lib3DAR_v4_0_7_b1.a in Frameworks */,
 				A645445D12A4E7290014F23C /* QuartzCore.framework in Frameworks */,
+				A699FC011310EE28008E304C /* lib3DAR_v4_0_8.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +184,15 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A699FC221310EFFE008E304C /* CGPointUtil.h */,
+				A699FC231310EFFE008E304C /* CGPointUtil.m */,
 				A6B8DCEB12A509BF00FC02E0 /* Constants.h */,
+				A699FCD11310FDE7008E304C /* FlatGridView.h */,
+				A699FCD21310FDE7008E304C /* FlatGridView.m */,
 				A6B8DDA112A51B7E00FC02E0 /* GroundPlaneView.h */,
 				A6B8DDA212A51B7E00FC02E0 /* GroundPlaneView.m */,
+				A699FC1F1310EFC1008E304C /* Joystick.h */,
+				A699FC201310EFC1008E304C /* Joystick.m */,
 				A6B8DD9512A51B5D00FC02E0 /* RoundedLabelMarkerView.m */,
 				A6B8DD9612A51B5D00FC02E0 /* RoundedLabelMarkerView.h */,
 				A6B8DD2C12A50FF700FC02E0 /* Scene.h */,
@@ -162,6 +201,8 @@
 				A6B8DD9812A51B5D00FC02E0 /* SphereBackgroundView.m */,
 				A6B8DD9912A51B5D00FC02E0 /* SphereView.h */,
 				A6B8DD9A12A51B5D00FC02E0 /* SphereView.m */,
+				A699FCFD131105FB008E304C /* OrbitingFixture.h */,
+				A699FCFE131105FB008E304C /* OrbitingFixture.m */,
 				A6B8DD9B12A51B5D00FC02E0 /* TexturedGeometryView.h */,
 				A6B8DD9C12A51B5D00FC02E0 /* TexturedGeometryView.m */,
 				A6B8DCE812A5083200FC02E0 /* URLFetchOperation.h */,
@@ -207,6 +248,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A699FC371310F11F008E304C /* 84_white_topnotch.png */,
+				A699FC381310F11F008E304C /* 128_white.png */,
+				A659285112D5A5C2000FEEAA /* scene1.json */,
 				A645447012A4EA120014F23C /* Default.png */,
 				A645447112A4EA120014F23C /* Icon.png */,
 				2899E5210DE3E06400AC0155 /* VisualizeViewController.xib */,
@@ -246,7 +290,7 @@
 		A64543C412A4E5390014F23C /* 3DAR */ = {
 			isa = PBXGroup;
 			children = (
-				A645445112A4E68C0014F23C /* lib3DAR_v4_0_7_b1.a */,
+				A699FC001310EE28008E304C /* lib3DAR_v4_0_8.a */,
 				A64543C512A4E5390014F23C /* 3dar.plist */,
 				A64543C612A4E5390014F23C /* 3dar_logo.png */,
 				A64543C812A4E5390014F23C /* SM3DAR.h */,
@@ -263,7 +307,15 @@
 				A6B8DDB112A51BE100FC02E0 /* compass_rose_b_300.png */,
 				A6B8DDB212A51BE100FC02E0 /* sky.png */,
 				A6B8DDB312A51BE100FC02E0 /* sky2.png */,
+				A62672C213112834006E6A4B /* sky3.png */,
 				A6B8DDDA12A51E7B00FC02E0 /* sphere.obj */,
+				A699FBBE1310E710008E304C /* tetrahedron.obj */,
+				A699FC6D1310F555008E304C /* dodecahedron.obj */,
+				A699FC7B1310F8B3008E304C /* magnolia.obj */,
+				A699FC901310F8FD008E304C /* octahedron.obj */,
+				A699FC931310F8FD008E304C /* sandal.obj */,
+				A699FC941310F8FD008E304C /* skyscraper.obj */,
+				A699FC951310F8FD008E304C /* lamp.obj */,
 			);
 			path = 3DAR;
 			sourceTree = "<group>";
@@ -363,6 +415,16 @@
 				A6B8DDBE12A51BE100FC02E0 /* sky.png in Resources */,
 				A6B8DDBF12A51BE100FC02E0 /* sky2.png in Resources */,
 				A6B8DDDB12A51E7B00FC02E0 /* sphere.obj in Resources */,
+				A659285212D5A5C2000FEEAA /* scene1.json in Resources */,
+				A699FBE01310E97C008E304C /* tetrahedron.obj in Resources */,
+				A699FC391310F11F008E304C /* 84_white_topnotch.png in Resources */,
+				A699FC3A1310F11F008E304C /* 128_white.png in Resources */,
+				A699FC6E1310F56C008E304C /* dodecahedron.obj in Resources */,
+				A699FC971310F8FD008E304C /* octahedron.obj in Resources */,
+				A699FC9A1310F8FD008E304C /* sandal.obj in Resources */,
+				A699FC9B1310F8FD008E304C /* skyscraper.obj in Resources */,
+				A699FC9C1310F8FD008E304C /* lamp.obj in Resources */,
+				A62672C313112834006E6A4B /* sky3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +451,10 @@
 				A6B8DD9F12A51B5D00FC02E0 /* SphereView.m in Sources */,
 				A6B8DDA012A51B5D00FC02E0 /* TexturedGeometryView.m in Sources */,
 				A6B8DDA312A51B7E00FC02E0 /* GroundPlaneView.m in Sources */,
+				A699FC211310EFC1008E304C /* Joystick.m in Sources */,
+				A699FC241310EFFE008E304C /* CGPointUtil.m in Sources */,
+				A699FCD31310FDE7008E304C /* FlatGridView.m in Sources */,
+				A699FCFF131105FB008E304C /* OrbitingFixture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,11 +18,13 @@
     Scene *scene;
     
     NSOperationQueue *operationQueue;
+    CGFloat gearSpeed;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet VisualizeViewController *viewController;
 @property (nonatomic, retain) Scene *scene;
+@property (nonatomic, assign) CGFloat gearSpeed;
 
 - (void) fetchPage:(NSString*)url;
 

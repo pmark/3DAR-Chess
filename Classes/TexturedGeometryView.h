@@ -8,13 +8,14 @@
 
 
 @interface TexturedGeometryView : SM3DAR_PointView {
-  double zrot;
-  UIColor *color;
-  Geometry *geometry;
-  Texture *texture;
-  NSString *textureName;
-  NSURL *textureURL;
+    double zrot;
+    UIColor *color;
+    Geometry *geometry;
+    Texture *texture;
+    NSString *textureName;
+    NSURL *textureURL;
     CGFloat sizeScalar;
+    
 }
 
 @property (nonatomic) double zrot;
@@ -27,10 +28,12 @@
 
 - (id) initWithTextureNamed:(NSString*)name;
 - (id) initWithTextureURL:(NSURL*)url;
+- (id) initWithOBJ:(NSString*)fileName;
 - (void) drawInGLContext;
 - (void) updateTexture:(UIImage*)textureImage;
 - (void) updateImage:(UIImage*)newImage;
 - (UIImage*) resizeImage:(UIImage*)originalImage;
 - (void) displayGeometry;
+- (UIColor *) randomColor;
 
 @end
