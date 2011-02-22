@@ -1,6 +1,6 @@
 //
-//  VisualizeAppDelegate.h
-//  Visualize
+//  ChessAppDelegate.h
+//  Chess
 //
 //  Created by P. Mark Anderson on 11/29/10.
 //  Copyright 2010 Bordertown Labs, LLC. All rights reserved.
@@ -10,11 +10,11 @@
 #import "URLFetchOperation.h"
 #import "Scene.h"
 
-@class VisualizeViewController;
+@class MainViewController;
 
-@interface VisualizeAppDelegate : NSObject <UIApplicationDelegate, URLFetchDelegate> {
+@interface ChessAppDelegate : NSObject <UIApplicationDelegate, URLFetchDelegate> {
     UIWindow *window;
-    VisualizeViewController *viewController;
+    MainViewController *viewController;
     Scene *scene;
     
     NSOperationQueue *operationQueue;
@@ -22,7 +22,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet VisualizeViewController *viewController;
+@property (nonatomic, retain) IBOutlet MainViewController *viewController;
 @property (nonatomic, retain) Scene *scene;
 @property (nonatomic, assign) CGFloat gearSpeed;
 
@@ -30,4 +30,4 @@
 
 @end
 
-#define APP_DELEGATE ((VisualizeAppDelegate*)[UIApplication sharedApplication].delegate)
+#define APP_DELEGATE ((ChessAppDelegate*)[UIApplication sharedApplication].delegate)

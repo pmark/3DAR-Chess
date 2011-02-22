@@ -1,13 +1,13 @@
 //
-//  VisualizeViewController.m
-//  Visualize
+//  ChessViewController.m
+//  Chess
 //
 //  Created by P. Mark Anderson on 11/29/10.
 //  Copyright 2010 Bordertown Labs, LLC. All rights reserved.
 //
 
-#import "VisualizeViewController.h"
-#import "VisualizeAppDelegate.h"
+#import "MainViewController.h"
+#import "ChessAppDelegate.h"
 #import "SM3DAR.h"
 #import "TexturedGeometryView.h"
 #import "CGPointUtil.h"
@@ -15,12 +15,12 @@
 #import "OrbitingFixture.h"
 #import "SphereBackgroundView.h"
 
-@interface VisualizeViewController (PrivateMethods)
+@interface MainViewController (PrivateMethods)
 - (void) addJoystick;
 - (void) addFlatGrid;
 @end
 
-@implementation VisualizeViewController
+@implementation MainViewController
 
 
 - (void)loadView 

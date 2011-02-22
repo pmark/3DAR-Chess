@@ -1,16 +1,16 @@
 //
-//  VisualizeAppDelegate.m
-//  Visualize
+//  ChessAppDelegate.m
+//  Chess
 //
 //  Created by P. Mark Anderson on 11/29/10.
 //  Copyright 2010 Bordertown Labs, LLC. All rights reserved.
 //
 
-#import "VisualizeAppDelegate.h"
-#import "VisualizeViewController.h"
+#import "ChessAppDelegate.h"
+#import "MainViewController.h"
 #import "SM3DAR.h"
 
-@implementation VisualizeAppDelegate
+@implementation ChessAppDelegate
 
 @synthesize window;
 @synthesize viewController;

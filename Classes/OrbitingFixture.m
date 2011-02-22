@@ -6,7 +6,7 @@
 #import "OrbitingFixture.h"
 #import "Constants.h"
 #import "TexturedGeometryView.h"
-#import "VisualizeAppDelegate.h"
+#import "ChessAppDelegate.h"
 
 extern float degreesToRadians(float degrees);
 extern float radiansToDegrees(float radians);

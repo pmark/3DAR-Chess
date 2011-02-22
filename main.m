@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Visualize
+//  Chess
 //
 //  Created by P. Mark Anderson on 11/29/10.
 //  Copyright 2010 Bordertown Labs, LLC. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Scene.h
-//  Visualize
+//  Chess
 //
 //  Created by P. Mark Anderson on 11/30/10.
 //  Copyright 2010 Bordertown Labs, LLC. All rights reserved.
